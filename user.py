@@ -83,4 +83,6 @@ class User:
         token = H(H(k + ra + rb) + rb)
 
         if (token not in self.tokens[date]) or (self.tokens[date][token] != rb):
-            raise Exception("Wrongful quarantine!")
+            raise Exception("Wrongful Quarantine! 😤😤")
+
+
