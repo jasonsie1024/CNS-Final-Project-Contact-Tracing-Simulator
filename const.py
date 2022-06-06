@@ -10,7 +10,7 @@ RANDOM_B_SIZE = 16          # the size of rB (in bytes)
 INTERACT_LIMIT = 10         # interaction limit per exchange period
 
 # Simulation Parameters
-USER_COUNT = 1000
-SPOT_COUNT = max(1000, USER_COUNT // 3) # expected each spot has maximum of 10 people
+USER_COUNT = 100
+SPOT_COUNT = max(10, USER_COUNT // 3)   # expected each spot has maximum of 10 people
 STAY_PERIOD = 3600                      # seconds to stay in each spot  
-SIM_DURATION = 86400 * 7                # in seconds
+SIM_DURATION = 86400 * 3                # in seconds
